@@ -1,0 +1,13 @@
+<div data-role="page" data-theme="b">
+
+  <div data-role="header" data-position="inline">
+    <h1>JSON機能</h1>
+  </div>
+
+  <div data-role="content">
+    <a href="<%= url_for :action => :parse_json %>" data-role="button" >JSON解析表示</a>
+    <a href="<%= url_for :action => :get_json %>" data-role="button" >サーバからJSONを取得</a>
+    <a href="<%= url_for :action => :generate_json %>" data-role="button" >JSON生成</a>
+  </div>
+
+</div>
